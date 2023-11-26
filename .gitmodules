@@ -1,0 +1,3 @@
+[submodule "chabot2"]
+	path = chabot2
+	url = https://github.com/Samanopo/front-end-web.git
