@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arrow Function Scope</title>
+</head>
+<body>
+    <script>
+        const arrowFunction = () => {
+            let z = 30 ;
+            console.log("Nilai z:", z);
+        };
+
+        arrowFunction();
+
+        console.log("Nilai z di luar fungsi:", z);
+    </script>
+</body>
+</html>
