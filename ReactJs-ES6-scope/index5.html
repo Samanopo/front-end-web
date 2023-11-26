@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>Template Literal ES6</title>
+</head>
+<body>
+    <div id="Output"></div>
+    <script>
+        const nama = 'Mr krabs';
+        const usia = 20;
+        const pekerjaan = 'Tidur'
+
+        const profil =`
+            Name: ${nama}<br>
+            Age: ${usia}<br>
+            Expertise/job: ${pekerjaan}
+        `;
+
+        document.getElementById('Output').innerHTML = profil;
+    </script>
+</body>
+</html>
